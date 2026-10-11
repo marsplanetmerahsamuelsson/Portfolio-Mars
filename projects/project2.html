@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Robotic Free-Form Timber - Architecture Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!-- Link back to your main CSS file -->
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<style>
+			/* Allow scrolling by removing fixed height locks */
+			html, body {
+				background-color: #ffffff;
+				color: #333333;
+				font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+				height: auto;
+				overflow-y: auto;
+			}
+			.portfolio-container {
+				width: 100%;
+				max-width: 850px;
+				margin: 0 auto;
+				padding: 3em 2em;
+			}
+			/* Keep video responsive */
+			.video-container {
+				position: relative;
+				padding-bottom: 56.25%;
+				height: 0;
+				overflow: hidden;
+				margin: 2em 0;
+				background: #000;
+				border-radius: 6px;
+			}
+			.video-container iframe {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				border: none;
+			}
+			.image-grid {
+				display: grid;
+				grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+				gap: 1.5em;
+				margin: 1.5em 0;
+			}
+			.image-grid figure {
+				margin: 0;
+			}
+			.image-grid img {
+				width: 100%;
+				height: 220px;
+				object-fit: cover;
+				border-radius: 6px;
+				border: 1px solid #eaeaea;
+			}
+			.image-grid figcaption {
+				font-size: 0.85em;
+				color: #666;
+				margin-top: 0.5em;
+			}
+</style>
+	</head>
+	<body class="is-preload-0">
+
+		<div class="portfolio-container">
+			<!-- Header -->
+			<header>
+				<h1>Robotic Free-Form Timber</h1>
+				<p><strong>Master Thesis Project:</strong> Investigating Load-Bearing Free-Form Timber via Robotic Fabrication[cite: 6]</p>
+			</header>
+
+			<!-- Introduction / Overview -->
+			<section class="content-section">
+				<h3>Project Overview</h3>
+				<p>This thesis investigates the potential of manufacturing load-bearing free-form timber structures where timber elements can rotate freely along the X, Y, and Z axes[cite: 6]. The core of the research integrates material science—studying anisotropic timber behavior, viscoelasticity, and hygroscopic properties—with advanced 6-axis robotic fabrication and material preparation techniques[cite: 6].</p>
+			</section>
+			<!-- Multi-Image Grid -->
+			<section class="content-section">
+				<h3>Fabrication Process & Experiments</h3>
+				<div class="image-grid">
+					<figure>
+						<img src="../images/fulls/02.jpg" alt="Timber Steaming Process">
+						<figcaption>Process A: Steam heating lamella layers in hose setup.</figcaption>
+					</figure>
+					<figure>
+						<img src="../images/fulls/03.jpg" alt="Robotic Bending Test">
+						<figcaption>Process B: 6-axis robot applying rotational bending force.</figcaption>
+					</figure>
+				</div>
+			</section>
+			<!-- Embedded YouTube Video -->
+			<section class="content-section">
+				<h3>Project Documentation Video</h3>
+				<p>Watch the full experiment breakdown, robotic motion planning, and final architectural applications below[cite: 6]:</p>
+				<div class="video-container">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/C0Z0iD6jMGI?si=fviao7GjWPeuoSU9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+
+			<!-- Detailed Text Explanation -->
+			<section class="content-section">
+				<h3>Research & Fabrication Process</h3>
+				
+				<h4>1. Material Setup & Softening</h4>
+				<p>Solid timber lamellas (sized at 1,200 mm × 50 mm × 3 mm following Engineered Wood Products taxonomy) are prepared using specialized soaking and steam-bending tools[cite: 6]. Both water soaking and steam heating play major roles in softening the timber to ease the bending process[cite: 6].</p>
+
+				<h4>2. Robotic Motion & Bending Experiments</h4>
+				<p>The research evaluates five distinct experimental setups, exploring both direct 6-axis motion and inverse kinematic motion planning[cite: 6]:</p>
+				<ul>
+					<li><strong>Experiments 1–3:</strong> Explored single-layer and multi-layer timber bending using axis motions, demonstrating how increasing lamella layers helps the timber retain its new shape[cite: 6].</li>
+					<li><strong>Experiments 4–5:</strong> Integrated inverse kinematic motion planning where tool reference points allow automated robot adjustments, successfully combining multiple lamella layers with steam-softening[cite: 6].</li>
+				</ul>
+
+				<h4>3. Robotic Assembly & Joinery</h4>
+				<p>The workflow extends to robotic assembly, utilizing 3D-printed joints positioned via computed spatial planes to construct complex, non-planar geometries[cite: 6]. Because 3D-printed elements require additional support, the final assemblies incorporate traditional wood joinery, interlocking components, screws, and structural foundation bolts[cite: 6].</p>
+
+				<h4>4. Architectural Application</h4>
+				<p>The project concludes with a conceptual architectural application, demonstrating how robot-bent timber curvature combined with glulam principles can create efficient, beautiful, and sustainable structural spaces[cite: 6].</p>
+			</section>
+
+			<!-- Navigation Actions -->
+
+		</div>
+
+	</body>
+</html>
